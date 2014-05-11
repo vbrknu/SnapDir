@@ -1,0 +1,212 @@
+* {
+    font-family:verdana,sans-serif;
+  }
+
+a:link { color:inherit;}
+a:visited { color:inherit;}
+a:hover { color: inherit;}
+
+.main a:link, a:hover { color: blue;}
+
+.mainContent {
+   width     :840px;
+   margin    :7px auto;
+    background:#f8f8f8;
+    border    :1px solid #888;
+  }
+
+html {
+    background:#fff }
+
+li a, .button{
+    text-decoration:none; }
+
+li a:hover, .button:hover {
+    color:green; }
+ 
+ul { margin: 30px 0;}
+li { margin-bottom: 5px;}
+
+.vismenu ul { margin: 20px; padding: 0;}
+.vismenu li { display: block; position: relative; }
+.vismenu li:before { content: '';
+                     display: block;
+                     background: url(../Img/fadearrow.png) no-repeat 0 0;
+                     height: 16px; width: 30px;
+                     position: absolute; top: 5px; left: -25px; 
+                     background-size: 20px 10px;
+                 }
+
+
+
+h3 {
+    line-height: 20px;
+    color: #354B5E;
+    letter-spacing: 110%;
+}
+
+h4 {
+    font-family: Georgia;
+    color: #D74B4B;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#jsoninput {
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+.profile p { 
+    font-family: Georgia,sans-serif;
+    text-indent: 10px; 
+}
+
+.appname {
+    text-align :center;
+    background-color: #354B5E;
+    color: white;
+    font-family:helvetica;
+    font-size  :20pt;
+    padding    :4px; }
+
+.fieldname {
+    float:left;
+    width:120px; }
+	 
+.main {
+    margin-left:40px; }
+
+.info {
+    background :lightgreen;
+    color      :blue;
+	 border     :1px solid green;
+	 padding    :5px 10px; 
+     margin-left: 40px;
+}
+
+.menu li, .button {
+    display           :inline;
+    padding           :4px 6px;
+    border            :1px solid #777;
+    background        :#ddd;
+	color             :#D74B4B;
+    margin-right      :8px;
+	 border-radius     :5px;
+    font-size         : 14pt;
+}
+
+.buttonheading {
+    padding        :4px 6px;
+    backgrond      :grey;
+    margin-right   :8px;
+    box-shadow     :1px 1px 2px 2px #888;
+    font-size:     :10pt;
+}
+
+.subhead {
+    font-weight:bold; }
+
+.taken, .error {
+    color:red; }
+
+.available {
+    color:green; }
+
+.profile {
+    width: 710px;
+    background-color: #DFDFDF;
+    padding: 20px;
+    margin: 10px 10px 8px 0px;
+    font-size: 12pt;
+    border-radius: 20px;
+    box-shadow:
+  0 0 0 5px hsl(0, 0%, 80%),
+  0 0 0 5px hsl(0, 0%, 90%);
+    
+}
+
+.vismenu {
+    border         :1px none;
+    margin-right   :70px;
+    line-height: 12pt;
+
+}
+
+.image-container {
+    float: left;
+    border: 1px lightblue solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.feed {
+    width: 720px;
+    background-color: #DCDDD8;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow:
+  0 0 0 5px hsl(0, 0%, 80%),
+  0 0 0 5px hsl(0, 0%, 90%);
+    font-size: 10pt;
+
+}
+
+.friendscontent {
+    width: 720px;
+    background-color: #DCDDD8;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow:
+  0 0 0 5px hsl(0, 0%, 80%),
+  0 0 0 5px hsl(0, 0%, 90%);
+    font-size: 10pt;
+}
+
+#newvis {
+    background-color: #D74B4B;
+    padding: 4px;
+    border-radius: 2px;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 12pt;
+    border: 1px solid black;
+    color: inherit;
+}
+
+.footer {
+   font-style: italic;
+   font-size: 8pt !important;
+   background :#DCDDD8;
+   color      :#354B5E;
+   font-weight: bold;
+   text-align: right;
+   margin-right: 50px;
+   border-radius: 10px;
+
+   
+}
+.footer p {  color: black;
+             margin-right: 5px; 
+             padding: 5px 5px; 
+             line-height: 15px;
+             letter-spacing: 110%;
+             font-weight: normal;
+         }
+
+.whisper {
+    font-style:italic;
+    color     :#006600; }
+
+.infobox {
+    margin: 5pt;
+    background-color: #354B5E;
+    padding: 5px;
+    color: #fff;
+    font-size: 9pt;
+}
